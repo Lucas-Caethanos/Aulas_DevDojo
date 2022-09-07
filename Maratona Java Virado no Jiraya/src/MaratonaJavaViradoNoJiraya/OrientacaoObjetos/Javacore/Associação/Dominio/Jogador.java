@@ -1,0 +1,38 @@
+package MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Associação.Dominio;
+
+public class Jogador {
+    private String name;
+    private Time time;
+
+
+    public void imprime(){
+        System.out.println(this.name);
+        if(time != null){
+            System.out.println(time.getName());
+        }
+    }
+
+    public Jogador(Time time) {
+        this.time = time;
+    }
+
+    public Time getTime() {
+        return time;
+    }
+
+    public void setTime(Time time) {
+        this.time = time;
+    }
+
+    public Jogador(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}

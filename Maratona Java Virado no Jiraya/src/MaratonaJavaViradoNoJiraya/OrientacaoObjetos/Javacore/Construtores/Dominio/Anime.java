@@ -14,7 +14,7 @@ public class Anime {
         this.genero = genero;
     }
     public Anime(){
-        System.out.println("Destro de um outro contrutor sem argumentos");
+        System.out.println("Dentro de um outro contrutor sem argumentos");
     }
 
     public void imprime(){

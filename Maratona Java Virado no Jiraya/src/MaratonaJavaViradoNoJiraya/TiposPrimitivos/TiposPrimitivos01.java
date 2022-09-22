@@ -14,7 +14,7 @@ public class TiposPrimitivos01 {
         int age = 10;
         long largeNumber = 100000;
         double wageDouble = 2008;
-        float wageFloat = 2500.01F; //Ajuda o programa a identificar o float
+        float wageFloat = 2500.01F; //Ajuda o programa a identificar o float!
         byte ageByte = 12;
         short ageShort = 10;
         boolean trueBoolean = true;
@@ -34,6 +34,8 @@ public class TiposPrimitivos01 {
         System.out.println(character);
         System.out.println(trueBoolean);
         System.out.println(falseBoolean);
+        System.out.println(nome);
+        System.out.println(nome2);
         System.out.println(nome3);
 
 

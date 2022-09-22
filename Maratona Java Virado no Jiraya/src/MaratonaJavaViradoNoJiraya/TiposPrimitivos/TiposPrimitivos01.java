@@ -2,7 +2,7 @@ package MaratonaJavaViradoNoJiraya.TiposPrimitivos;
 
 /**
  * Isso é um <b>Javadoc</b><br>
- * Pode ser acessado com ctrl + alt + Q.<br>Aqui eceitamos HTML
+ * Pode ser acessado com ctrl + alt + Q.<br>Aqui aceitamos HTML
  */
 public class TiposPrimitivos01 {
 
@@ -19,7 +19,7 @@ public class TiposPrimitivos01 {
         short ageShort = 10;
         boolean trueBoolean = true;
         boolean falseBoolean = false;
-        char character = 'K';
+        char character = 'K'; //O carácter traduz para a tabela ASCII
 
         //O cast é vc forçar um valor maior em uma variável que não suporta seu tamanho.
         // int age = (int) 10000000000000L; --> forçando um long em um int (pode dar erro ao complilar).
@@ -32,9 +32,10 @@ public class TiposPrimitivos01 {
 
         System.out.println("The age is " + age);
         System.out.println(character);
-        System.out.println(nome);
-        System.out.println(nome2);
+        System.out.println(trueBoolean);
+        System.out.println(falseBoolean);
         System.out.println(nome3);
+
 
     }
 }

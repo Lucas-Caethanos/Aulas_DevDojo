@@ -44,6 +44,12 @@ public class Operadores01 {
 
         System.out.println(isInTheLaw);
 
+        double amountC1 = 200F;
+        double amountC2 = 10000F;
+        double playstation5Value = 5000F;
+        boolean isPlaystation5Buyable = amountC1 > playstation5Value || amountC2 > playstation5Value;
+
+        System.out.println(isPlaystation5Buyable);
 
 
     }

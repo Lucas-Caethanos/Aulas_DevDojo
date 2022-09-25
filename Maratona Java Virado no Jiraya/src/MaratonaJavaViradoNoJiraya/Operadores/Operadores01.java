@@ -23,7 +23,7 @@ public class Operadores01 {
         System.out.println(rest);
 
         System.out.println("////////////////////////////////////////////////////////////");
-        //Operadores lógicos:
+        //Operadores de comparação:
         // < > <= >= == !=
         boolean isTenGreaterThanTwenty = 10 > 20;
         boolean isTenSmallerThanTwenty = 10 < 20;
@@ -34,6 +34,16 @@ public class Operadores01 {
         System.out.println(isTenSmallerThanTwenty);
         System.out.println(isTenEqualsTwenty);
         System.out.println(isTenDifferentTwenty);
+
+        System.out.println("////////////////////////////////////////////////////////////");
+        //Operadores lógicos
+        //&& (AND), || (OR), !(Negação)
+        int age = 35;
+        float wage = 3500F;
+        boolean isInTheLaw = age > 30 && wage > 4612;
+
+        System.out.println(isInTheLaw);
+
 
 
     }

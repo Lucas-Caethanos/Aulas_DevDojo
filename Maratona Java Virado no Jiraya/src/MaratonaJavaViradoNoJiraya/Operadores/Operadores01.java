@@ -51,6 +51,25 @@ public class Operadores01 {
 
         System.out.println(isPlaystation5Buyable);
 
+        System.out.println("////////////////////////////////////////////////////////////");
+        //Operadores de atribuição
+        //= += -= *= /= %=
+        double bonus = 1800;
+        //bonus = bonus + 100;
+        bonus += 1000;
+        bonus *= 2;
+        bonus /= 4;
+
+        System.out.println(bonus);
+
+        System.out.println("////////////////////////////////////////////////////////////");
+        //++ --
+        int counter = 0;
+        counter += 1;
+        counter++; //counter++ -> imprime e depois opera
+        ++counter; //++counter -> opera e depois imprime
+
+        System.out.println(counter);
 
     }
 }

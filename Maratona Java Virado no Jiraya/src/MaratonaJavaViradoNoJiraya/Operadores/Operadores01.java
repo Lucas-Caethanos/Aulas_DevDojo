@@ -17,6 +17,24 @@ public class Operadores01 {
         System.out.println(isBiggestResult);
         System.out.println(isSmallestResult);
 
+        System.out.println("////////////////////////////////////////////////////////////");
+        //%
+        int rest = 21 % 7;
+        System.out.println(rest);
+
+        System.out.println("////////////////////////////////////////////////////////////");
+        //Operadores lógicos:
+        // < > <= >= == !=
+        boolean isTenGreaterThanTwenty = 10 > 20;
+        boolean isTenSmallerThanTwenty = 10 < 20;
+        boolean isTenEqualsTwenty = 10 == 20;
+        boolean isTenDifferentTwenty = 10 == 20;
+
+        System.out.println(isTenGreaterThanTwenty);
+        System.out.println(isTenSmallerThanTwenty);
+        System.out.println(isTenEqualsTwenty);
+        System.out.println(isTenDifferentTwenty);
+
 
     }
 }

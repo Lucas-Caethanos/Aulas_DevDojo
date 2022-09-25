@@ -1,6 +1,6 @@
 package MaratonaJavaViradoNoJiraya.Operadores;
 
-public class Operadores01 {
+public class Operadores {
     /**
      * <b>Operadores básicos</b>:<br>
      * Soma (+), Subtração (-), Divisão (/), Multiplicação (*)

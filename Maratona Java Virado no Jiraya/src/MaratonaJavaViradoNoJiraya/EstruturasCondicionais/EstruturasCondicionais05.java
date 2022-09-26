@@ -3,12 +3,12 @@ package MaratonaJavaViradoNoJiraya.EstruturasCondicionais;
 public class EstruturasCondicionais05 {
     public static void main(String[] args) {
         //imprima o dia da semana, considerando 1 como domingo
-        byte dia = 9;
+        byte day = 8;
 
         //Só pode usar variáveis do tipo char, int, byte, short, enum, String
-        switch (dia) {
+        switch (day) {
             case 1:
-                System.out.println("domingo");
+                System.out.println("Domingo");
                 break;
             case 2:
                 System.out.println("Segunda");

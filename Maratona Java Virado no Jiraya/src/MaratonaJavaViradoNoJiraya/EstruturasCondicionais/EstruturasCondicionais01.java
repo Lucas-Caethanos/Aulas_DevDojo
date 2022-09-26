@@ -8,7 +8,6 @@ public class EstruturasCondicionais01 {
                   if (isAutorizado) {
                       System.out.println("Autorizado");
                   }
-
                   ! é o operador de negação
                   if (!isAutorizado) {
                       System.out.println("Não autorizado");

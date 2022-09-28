@@ -9,6 +9,10 @@ public class Carro {
         MAX_SPEED = 250;
     }
 
+    public final void imprime(){
+        System.out.println(this.name);
+    }
+
     public String getName() {
         return name;
     }

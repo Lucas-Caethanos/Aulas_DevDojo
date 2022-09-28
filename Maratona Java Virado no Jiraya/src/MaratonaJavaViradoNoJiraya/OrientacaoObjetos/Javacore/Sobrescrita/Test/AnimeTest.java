@@ -4,10 +4,10 @@ import MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Sobrescrita.Dominio
 
 public class AnimeTest {
     public static void main(String[] args) {
-        Anime anime1 = new Anime("Bleach");
+        Anime anime = new Anime("Bleach");
 
 
-        System.out.println(anime1);
+        System.out.println(anime);
 
     }
 }

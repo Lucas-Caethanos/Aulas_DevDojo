@@ -3,6 +3,13 @@ package MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Sobrescrita.Domini
 public class Anime {
     private String nome;
 
+    @Override
+    public String toString() {
+        return "Anime{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
     public String getNome() {
         return nome;
     }

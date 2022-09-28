@@ -2,9 +2,10 @@ package MaratonaJavaViradoNoJiraya.EstruturasDeRepeticao;
 
 public class EstruturasDeRepeticao01 {
     public static void main(String[] args) {
-//while, do while, for
+        //Estruturas de repetição: while, do while, for
 
         int count = 0;
+
         while (count < 10) {
             System.out.println("Dentro do 'while' " + (++count));
         }
@@ -21,6 +22,7 @@ public class EstruturasDeRepeticao01 {
                 //continue; --> Sai do if, mas continua no for
             }
         }
+
     }
 
 

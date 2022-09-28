@@ -1,12 +1,13 @@
 package MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Modificadorfinal.dominio;
 
-public class Carro {
+public class Comprador {
     private String name;
-    public static final double MAX_SPEED; //Constantes tem essa sintaxe
-    public final Comprador COMPRADOR = new Comprador();
 
-    static { //Bloco sempre será executado
-        MAX_SPEED = 250;
+    @Override
+    public String toString() {
+        return "Comprador{" +
+                "name='" + name + '\'' +
+                '}';
     }
 
     public String getName() {

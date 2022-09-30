@@ -13,6 +13,5 @@ public enum TipoPagamento {
             return valor * 0.05;
         }
     };
-
     public abstract double calcularDesconto(double valor); //Um método criado para ser sobrescrito, a sobrescrita se torna obrigatória
 }

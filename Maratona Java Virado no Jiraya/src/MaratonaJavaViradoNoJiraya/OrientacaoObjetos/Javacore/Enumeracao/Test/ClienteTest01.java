@@ -1,8 +1,8 @@
 package MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Enumeracao.Test;
 
 import MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Enumeracao.Dominio.Cliente;
-import MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Enumeracao.Dominio.Cliente.TipoPagamento;
 import MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Enumeracao.Dominio.TipoCliente;
+import MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.Enumeracao.Dominio.TipoPagamento;
 
 public class ClienteTest01 {
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class ClienteTest01 {
         //System.out.println(cliente2);
         System.out.println(cliente3);
         //System.out.println(cliente4);
+        System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
 
     }
 }

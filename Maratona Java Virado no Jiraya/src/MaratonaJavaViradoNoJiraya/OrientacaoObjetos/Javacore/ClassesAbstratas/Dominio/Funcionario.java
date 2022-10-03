@@ -1,6 +1,6 @@
 package MaratonaJavaViradoNoJiraya.OrientacaoObjetos.Javacore.ClassesAbstratas.Dominio;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa{
     protected String name;
     protected double wage;
 

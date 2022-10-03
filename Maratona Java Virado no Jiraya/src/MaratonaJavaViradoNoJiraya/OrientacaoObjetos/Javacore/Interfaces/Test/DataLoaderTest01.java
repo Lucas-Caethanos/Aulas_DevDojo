@@ -11,6 +11,7 @@ public class DataLoaderTest01 {
         databaseLoader.load();
         databaseLoader.remove();
         databaseLoader.checkPermition();
+
         System.out.println("----------------------");
         filelLoader.load();
         filelLoader.remove();

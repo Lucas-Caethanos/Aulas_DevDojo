@@ -7,8 +7,14 @@ public class DataLoaderTest01 {
     public static void main(String[] args) {
         DatabaseLoader databaseLoader = new DatabaseLoader();
         FilelLoader filelLoader = new FilelLoader();
+
         databaseLoader.load();
+        databaseLoader.remove();
+        databaseLoader.checkPermition();
+        System.out.println("----------------------");
         filelLoader.load();
+        filelLoader.remove();
+        filelLoader.checkPermition();
 
     }
 }

@@ -1,4 +1,4 @@
-package MaratonaJavaViradoNoJiraya.Excecoes.Test;
+package MaratonaJavaViradoNoJiraya.Excecoes.Error.Test;
 
 public class StackOverflowTest01 {
     public static void main(String[] args) {

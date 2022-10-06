@@ -3,13 +3,13 @@ package MaratonaJavaViradoNoJiraya.Excecoes.exception.test;
 import java.io.File;
 import java.io.IOException;
 
-public class ExceptionTest01 {
-    public static void main(String[] args) {
+public class ExceptionTest02 {
+    public static void main(String[] args) throws IOException {
         criarNovoArquivo();
 
     }
 
-    private static void criarNovoArquivo() {
+    private static void criarNovoArquivo() throws IOException {
         File file = new File("arquivo\\teste.txt");
         try {
             boolean isCriado = file.createNewFile();
@@ -18,6 +18,7 @@ public class ExceptionTest01 {
         } catch (IOException e) {
             //Nunca deixe esse bloco em branco
             e.printStackTrace();
+            throw e;
         }
     }
 }

@@ -12,16 +12,22 @@ public class WrapperTest01 {
         char charP = 'W';
         boolean booleanP = false;
 
-        //São objetos 
+        //São objetos
         Byte byteW = 1;
-        Short shortW = 1;
+        Short shortW = 1; //autoboxing
         Integer intW = 1;
         Long longW = 10L;
         Float floatW = 10F;
         Double doubleW = 10D;
         Character charW = 'W';
         Boolean booleanW = false;
-        
 
+        int i = intW; // unboxing
+        Integer intW2 = Integer.parseInt("156456564"); //Tranformando string em outro valor (no caso integer)
+        System.out.println(intW2);
+
+        System.out.println(Character.isDigit('A'));
+        System.out.println(Character.isDigit('9'));
+        System.out.println(Character.isLetterOrDigit('-'));
     }
 }

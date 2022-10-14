@@ -1,4 +1,4 @@
-package MaratonaJavaViradoNoJiraya.ClassesUnitarias.Dates.Test;
+package MaratonaJavaViradoNoJiraya.ClassesUnitarias.FormatacaoTest;
 
 import java.text.DateFormat;
 import java.util.Calendar;

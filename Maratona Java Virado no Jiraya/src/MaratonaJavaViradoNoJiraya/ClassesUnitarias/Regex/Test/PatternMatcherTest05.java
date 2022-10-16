@@ -3,21 +3,14 @@ package MaratonaJavaViradoNoJiraya.ClassesUnitarias.Regex.Test;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternMatcherTest04 {
+public class PatternMatcherTest05 {
     public static void main(String[] args) {
-//? zero ou uma
-        //* zero ou mais
-        //+ uma ou mais
-        //{n,m} de n até m
-        //()
-        // | o(v|c) -> ocorrências como ovo e oco
-        //$ fim da linha
-        //. 1.3 = 123, 133, 1@3, 1A3 (corinda)
 
-        String regex = "0[xX]([\\dA-Fa-f])+(\\s|$)";
+        String regex = "([a-zA-Z\\d\\._-])+@([a-zA-Z])+\\.([a-zA-Z])+";
 
 
-        String texto = "12 0x 0x 0xFFABC 0x10G 0x1";
+        String texto = "Ichigo@gmail.com, Zaraki@hotmail.com, rukia@hotogo, rengilsoul@mail.mail, soulsociety@sereitei.com";
+        System.out.println("rukia@hotogo.bbb".matches(regex));
         Pattern pattern = Pattern.compile(regex); //Define um padrão (para ser usado em uma pesquisa)
         Matcher matcher = pattern.matcher(texto); //Usada para procurar o padrão
 

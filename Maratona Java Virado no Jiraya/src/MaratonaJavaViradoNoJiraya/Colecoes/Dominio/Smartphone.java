@@ -9,6 +9,25 @@ public class Smartphone {
         this.marca = marca;
     }
 
+    /**
+     * Regras: <br>
+     * Reflexivo: x.equals(x) tem que que ser true para tudo que for diferente de null <br>
+     * Simétrico: para x e y diferente de null, se x.equals(y) == true logo, y.equals(x) == true <br>
+     * Transitividade: para x, y, z diferente de null, se x. equals(y) == true, e x.equals(z) == true logo, y.equals(z) == true <br>
+     * Consistente: x.equals(x) sempre retorna true se x fordiferente de null <br>
+     */
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null) return false; //objeto nulo retorna falso
+
+        if(this == obj) return true; //se as referencias do objeto são iguais (entaõ se trata do mesmo objeto) retorna true
+
+        if(this.getClass() != obj.getClass()) return false; //Verifica a classe do objeto
+        Smartphone smartphone = (Smartphone) obj; //Cast do objeto smarphone para obj
+
+        return serialNumber != null && serialNumber.equals(smartphone.serialNumber); //Verificação do equals
+    }
+
     public String getSerialNumber() {
         return serialNumber;
     }

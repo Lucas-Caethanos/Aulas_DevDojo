@@ -12,8 +12,14 @@ public class ListTest {
 //        nomes.add(1233);
 
         List<String> nomes = new ArrayList<>(16);
+        List<String> nomes2 = new ArrayList<>(16);
         nomes.add("Ichigo");
         nomes.add("Renji");
+        nomes.remove("Renji"); //Pode receber um indice ou objeto, retorna true ou false
+        nomes2.add("Rukia");
+        nomes2.add("Kisuke Urahara");
+
+        nomes.addAll(nomes2); //Colocando todos os elementos de uma List na outra
 
         for (String nome : nomes) {
             System.out.println(nome);
@@ -23,6 +29,7 @@ public class ListTest {
             System.out.println(nomes.get(i));
 
         }
+        System.out.println(nomes);
 
     }
 }

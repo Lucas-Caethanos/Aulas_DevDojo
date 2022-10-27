@@ -9,6 +9,14 @@ public class Smartphone {
         this.marca = marca;
     }
 
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", marca='" + marca + '\'' +
+                '}';
+    }
+
     /**
      * Regras: <br>
      * Reflexivo: x.equals(x) tem que que ser true para tudo que for diferente de null <br>
